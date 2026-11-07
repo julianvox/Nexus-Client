@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nexus",
+  "version": "${version}",
+  "name": "Nexus Client",
+  "description": "Menülü, ayarlanabilir, profilli Türkçe hile istemcisi.",
+  "authors": ["Nexus"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.nexus.NexusClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

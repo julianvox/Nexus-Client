@@ -1,0 +1,20 @@
+# Gradle / derleme çıktıları (GitHub'a gönderme)
+.gradle/
+build/
+run/
+out/
+bin/
+*.class
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# İşletim sistemi
+Thumbs.db
+.DS_Store
